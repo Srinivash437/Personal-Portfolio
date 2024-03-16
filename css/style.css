@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: white;
+}
+.nav-link {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: white;
+  background-color: black;
+}
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* main section */
+.main {
+  background-image: url(../img/Bg\ img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 95vh;
+}
+.main h3 {
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+.main h6 {
+  font-size: 1.4rem;
+  line-height: 2;
+  border-bottom: 3px solid rgb(233, 20, 109);
+  width: 48%;
+}
+/* --------------------------------------- */
+.about {
+  line-height: normal;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn1 {
+  height: 40px;
+  width: 145px;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+.btn1:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+.btn2 {
+  height: 40px;
+  width: 145px;
+  outline: none;
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  border-radius: 4px;
+}
+.btn2:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+/* ----------------------------------- */
+.card {
+  border: none;
+  outline: none;
+  height: 72vh;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.card p {
+  color: gray;
+}
+.circle {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(288, 220, 220);
+  color: black;
+  padding: 12px;
+  font-size: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.card:hover .circle {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+/* ------------------------------------------------- */
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.work {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.work img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.layer {
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #ababab);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  transition: height 0.5s;
+}
+.layer h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: white;
+}
+.layer p {
+  color: white;
+}
+.layer a {
+  margin-top: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.work:hover img {
+  transform: scale(1.1);
+}
+.work:hover .layer {
+  height: 100%;
+}
+/* -------------------------------------- */
+.circle:hover {
+  background-color: black;
+  transition: 0.4s;
+  color: white;
+}
+.contact .btn3 {
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 140px;
+  border-radius: 4px;
+}
+.btn3:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+footer {
+  background-color: black;
+  color: #ababab;
+}
+.f-box input {
+  border: 1px solid black;
+}
+.f-text-box textarea {
+  border: 1px solid black;
+}
+.f-text-box {
+  padding: 0;
+}
+.social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: black;
+  transition: transform 0.5s;
+}
+.social-icons {
+  display: block;
+  text-align: center;
+}
+.social-icons a :hover {
+  color: #ababab;
+  transform: translateY(-5px);
+}
